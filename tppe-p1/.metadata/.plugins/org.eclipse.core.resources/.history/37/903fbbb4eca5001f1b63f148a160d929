@@ -1,0 +1,41 @@
+package tst;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runners.Parameterized.Parameters;
+
+import app.Fibonacci;
+
+
+@RunWith(@Parameterized.class)
+public class TesteProporcaoAurea {
+	
+	// Test Parameters
+	int size;
+	int pos1;
+	int pos2;
+	float maxErr;
+	
+	// Test Object
+	Fibonacci f;
+	
+	@Parameters
+	
+	@Before
+	public void setup() {
+		/*
+		 * Insira o código para inicializacao do teste
+		 */
+	}
+	
+	/* 
+	 * Insira o código para definição dos parametros
+	 */
+	
+	@Test
+	public void testeProporcaoAurea() {
+		/*
+		 * Escreva seu teste
+		 */
+	}
+}

@@ -1,0 +1,46 @@
+package tst;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+
+@RunWith(Parameterized.class)
+public class TestesCriacaoDasSequencias {
+	
+	
+	
+    int size;	
+	
+	@Parameters
+    public static Collection<Object[][]> getParameters() {
+        int size1 = 3;
+        int size2 = 4;
+        int size3 = 6;
+
+        Collection<Object[][]> parameters = new Collection<Object[][]>(
+            size1,
+            size2,
+            size3
+        );
+
+        return parameters;
+    }
+	
+	@Before
+	public void setup() {
+	    this.size = getParameters();
+    }
+	
+	/* 
+	 * Insira o código para definição dos parametros
+	 */
+	
+	@Test
+	public void testeCriacaoDasSequencias() {
+		/*
+		 * Escreva seu teste
+		 */
+	}
+}

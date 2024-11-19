@@ -1,0 +1,11 @@
+package tst;
+
+public class CriacaoSequenciasObject {
+    int size;
+	int expectedResult[];
+	
+	public CriacaoSequenciasObject(int size, int expectedResult[]) {
+		this.size = size;
+		this.expectedResult = expectedResult;
+	}
+}

@@ -1,0 +1,34 @@
+package tst;
+
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class TesteProporcaoAurea {
+	
+	/*
+	 * Complete a classe para escrever o teste parametrizado para
+	 * a questão 2 da avaliação
+	 */
+	
+	
+	
+	
+	@Before
+	public void setup() {
+		/*
+		 * Insira o código para inicializacao do teste
+		 */
+	}
+	
+	/* 
+	 * Insira o código para definição dos parametros
+	 */
+	
+	@Test
+	public void testeProporcaoAurea() {
+		/*
+		 * Escreva seu teste
+		 */
+	}
+}
